@@ -29,7 +29,7 @@ For reading and writing sound files it uses scipy.io.wavfile :
 
    This function implements the wawwrite function, similar to Octave or Matlab, to write a wav sound file from a vector snd with sampling rate Fs, with: 
    import sound; 
-   sound.wavwrite(snd,Fs,'sound.wav');"""
+   sound.wavwrite(snd,Fs,'sound.wav');
 
    
 

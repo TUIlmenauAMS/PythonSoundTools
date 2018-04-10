@@ -23,7 +23,7 @@ For reading and writing sound files it uses scipy.io.wavfile :
 
 * wavread(sndfile):
 
-   This function implements a wavread function, similar to Octave or Matlab, to read a wav sound file into a vector x and sampling rate info 'Fs' at its return. It supports multi-channel audio. Use it with: import sound; [s,Fs]=sound.wavread('sound.wav'); or snd,Fs= sound.wavread('sound.wav')
+   This function implements a wavread function, similar to Octave or Matlab, to read a wav sound file into a vector snd and sampling rate info 'Fs' at its return. It supports multi-channel audio. Use it with: import sound; [snd,Fs]=sound.wavread('sound.wav'); or snd,Fs= sound.wavread('sound.wav')
    
 * wavwrite(snd,Fs,sndfile):
 

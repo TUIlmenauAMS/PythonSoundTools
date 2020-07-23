@@ -1,5 +1,6 @@
 
 # Python Sound Tools Library
+##The sound library
 
 The file sound.py is a collection of a few practical tools for sound processing in Python.
 Use it in Python with: import sound
@@ -31,7 +32,15 @@ For reading and writing sound files it uses scipy.io.wavfile :
    import sound; 
    sound.wavwrite(snd,Fs,'sound.wav');
 
-   
+##pyrecplay_samplingblock.py
+let it run with Python3. It records from the sound card, multiplies the sound with a unit pulse train, and play it back to the sound card. A demonstration of sampling with keeping the zeros in it, and for the sound of aliasing components. 
+
+##pyrecspecwaterfallsampling.py
+Let it run with Python3. It display a color waterfall spectrogram of the sound from the soundcard, optionally samples and low pass filters it, and plays it back to the sound card.
+
+Decsribed in this lecture video:
+https://youtu.be/qNtj-vCRqGY
+
 
 
 

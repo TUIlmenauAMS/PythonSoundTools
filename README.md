@@ -48,11 +48,10 @@ python3 gsaudiocompressor.py
 
 ## gsaudiocompressor_lcddothat.py
 This is basically the same as "gsaudiocompressor.py", bit instead of using cv2 and a monitor, it uses Pimoroni's dothat.lcd for display and control, such that no external keyboard and monitor is needed. The 2 arrow touch buttons on the left of the LCD display are used to increase/decrease the compression level, and the white LED chain on the right of the display indicate the audio level. This is useful for a small, standalone box.
-For the display see:
+For the display see:https://shop.pimoroni.com/products/display-o-tron-hat
 
-https://shop.pimoroni.com/products/display-o-tron-hat
+Start it with:
 
-Start it with 
 python gsaudiocompressor_lcddothat.py 
 
 

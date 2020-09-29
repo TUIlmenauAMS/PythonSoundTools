@@ -42,7 +42,7 @@ Decsribed in this lecture video:
 https://youtu.be/qNtj-vCRqGY
 
 ## gsaudiocompressor.py
-This program does an audio range compression. It applies a logarithmic curve of adjustable strength to the magnitudes of the audio samples. In this way it amlifies weak signals. It needs OpenCV (cv2) for display and control. Start this program with:
+This program does an audio dynamic range compression. It applies a logarithmic curve of adjustable strength to the magnitudes of the audio samples. In this way it amlifies weak signals. It needs OpenCV (cv2) for display and control. Start this program with:
 
 python3 gsaudiocompressor.py
 
